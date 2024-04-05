@@ -38,7 +38,7 @@ export class ObjectComponent implements OnInit {
     this.selectedObject = new THREE.Mesh(geometry, material);
     
     this.selectedObject.position.z = -1;
-    this.selectedObject.position.x = -4;
+    this.selectedObject.position.x = -2;
     this.selectedObject.position.y = 4;
     
     this.scene.add(this.selectedObject);
@@ -50,7 +50,7 @@ export class ObjectComponent implements OnInit {
     this.selectedObject = new THREE.Mesh(geometry, material);
     
     this.selectedObject.position.z = -1;
-    this.selectedObject.position.x = -4;
+    this.selectedObject.position.x = -2;
     this.selectedObject.position.y = 4;
 
     this.scene.add(this.selectedObject);
@@ -62,7 +62,7 @@ export class ObjectComponent implements OnInit {
     this.selectedObject = new THREE.Mesh(geometry, material);
     
     this.selectedObject.position.z = -1;
-    this.selectedObject.position.x = -4;
+    this.selectedObject.position.x = -2;
     this.selectedObject.position.y = 4;
     
     this.scene.add(this.selectedObject);
@@ -74,7 +74,7 @@ export class ObjectComponent implements OnInit {
     this.selectedObject = new THREE.Mesh(geometry, material);
 
     this.selectedObject.position.z = -1;
-    this.selectedObject.position.x = -4;
+    this.selectedObject.position.x = -2;
     this.selectedObject.position.y = 4;
 
     this.scene.add(this.selectedObject);
@@ -86,9 +86,9 @@ export class ObjectComponent implements OnInit {
     this.selectedObject = new THREE.Mesh(geometry, material);
 
     this.selectedObject.position.z = -1;
-    this.selectedObject.position.x = -4;
+    this.selectedObject.position.x = -2;
     this.selectedObject.position.y = 4;
-    
+
     this.scene.add(this.selectedObject);
   }
 
