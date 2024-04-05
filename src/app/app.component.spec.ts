@@ -12,16 +12,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'camera-overlay'`, () => {
+  it(`should have as title 'CameraView'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('camera-overlay');
+    expect(app.title).toEqual('CameraView');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('camera-overlay app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('CameraView app is running!');
   });
 });

@@ -1,13 +1,13 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
-import { CameraService } from './services/camera.service';
+import { CameraService } from '../../services/camera.service';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-camera-feed',
+  templateUrl: './camera-feed.component.html',
+  styleUrls: ['./camera-feed.component.css']
 })
-export class AppComponent implements OnInit {
-    @ViewChild('video', { static: true }) videoRef!: ElementRef;
+export class CameraFeedComponent implements OnInit {
+  @ViewChild('video', { static: true }) videoRef!: ElementRef;
   // video = this.videoRef.nativeElement;
 
   constructor(private cameraService: CameraService) { }
@@ -22,9 +22,4 @@ export class AppComponent implements OnInit {
       console.error('Error:', error);
     }
   }
-} 
-
-/// <!-- moving the above code to a separate component. not working  -->
-// export class AppComponent {
-//}
-
+}
